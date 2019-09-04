@@ -1,0 +1,245 @@
+body {
+	font-family: "Oswald", sans-serif;
+	background: -webkit-radial-gradient(#f3f3f2, #a2a5a2);
+    background: -o-radial-gradient(#f3f3f2, #a2a5a2); 
+    background: -moz-radial-gradient(#f3f3f2, #a2a5a2);  
+    background: radial-gradient(#f3f3f2, #a2a5a2);  
+}
+div#top {
+    display: inline-flex;
+    width: 100%;
+	margin-top: 4%;
+}
+
+div#leftid {
+	width: 75%;
+	margin-left: 5%;
+}
+
+td#shsTeamScoreboardsEntry {
+    display: flex;
+}
+
+td#shsTeamScoreboardsEntry tr {display: inline;}
+
+div#leftcard {
+	display: flex;
+}
+
+div#calendar {
+	background: white;
+    width: 25%;
+    height: 20%;
+	margin-left: 1%;
+    display: table;
+}
+#nextgame  #shsBody {
+    margin: 0 auto;
+    display: table;
+}
+div#innercal {
+	display: table-cell; 
+	vertical-align: bottom;
+	font-size: 30px;
+}
+
+td.shsNamD.shsMiniTeamName a {     z-index: 9999999999999;
+    position: relative;}
+
+div#teammode {
+    font-size: 17px;
+}
+
+div#season {
+    font-size: 29px;
+    letter-spacing: -1;
+    margin-top: -11px;
+	font-weight: 300;
+}
+div#nav ul {
+    list-style-type: none;
+	display: inline-flex;
+}
+div#nav ul li {
+    padding-right: 11px;
+    background: white;
+}
+
+div#rightid {
+    display: inline-flex;
+	background: #FFF;
+	width: 14%;
+}
+
+div#sports {
+	padding-left: 0;
+    display: inline-flex;
+    font-family: 'Work Sans', sans-serif;
+    color: #1ed760;
+    text-transform: uppercase;
+}
+
+.shsMiniCopyright.shsMiniCopyright_byteam {
+    display: none;
+}
+
+div#nextgame {
+        background: white;
+    width: 25%;
+    height: 20%;
+    display: table;
+	
+}
+
+div#tabs-1 p {
+    color: white;
+}
+
+div#news a
+ {
+    color: white;
+}
+
+.1h{ color: white;}
+
+
+
+div#tabs-1 table {
+    color: white;
+}
+
+
+
+div#bottom {
+    width: 100%;
+    margin-left: 5%;
+	background: white;
+}
+
+div#stats {
+    display: flex;
+    background: white;
+    width: 36%;
+    margin-top: 20;
+}
+
+div#middle {
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+div#news {
+    width: 100%;
+	background: #404040;
+}
+
+#calendar span.shsTimezone.shsETZone {margin-top: -11px;margin-left: 0;}
+
+.shsMiniCopyright {
+    display:  none;
+}
+
+.shsMiniCopyrightText {
+    display: none;
+}
+.shsMiniCopyrightText.shsMiniCopyright_byteam {
+    display: none;
+}
+td.gamedate {
+    position: absolute;
+    padding-top: 111px;
+    margin-left: -78px;
+}
+
+.shsMiniCopyright.shsMiniCopyright_leaders {
+    display: none;
+}
+
+.shsMiniCopyrightText.shsMiniCopyright_leaders {
+    display: none;
+}
+
+span.shsTimezone.shsPTZone {display:none;}
+
+span.shsTimezone.shsETZone {
+    display: block;
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 91px;
+}
+
+
+span.shsTimezone.shsMTZone {display:none;}
+
+span.shsTimezone.shsCTZone {display:none;}
+
+span.shsTimezone.shsGMTZone {display:none;}
+
+span.shsTimezone.shsCSTZone {display:none;}
+
+span.shsTimezone.shsMSTZone {display:none;}
+
+span.shsTimezone.shsESTZone {display:none;}
+
+span.shsTimezone.shsIntlCTZone {display:none;}
+
+span.shsTimezone.shsUAEZone {display:none;}
+
+span.shsTimezone.shsET24Zone {display:none;}
+
+span.shsTimezone.shsBRTZone {display:none;}
+
+div#teamlogo {
+    
+	
+}
+
+div#topheadline {
+	
+	    background: white;
+    width: 75%;
+    height: 20%;
+    display: table;
+	
+}
+
+
+div#teamrightid {
+    width: 74%;
+}
+
+div#nav ul li:hover {
+    background: black;
+    color: white;
+}
+
+div#teamname {
+    margin-top: 7%;
+}
+
+hr#rightidline {
+    margin-top: -2;
+    width: 100%;
+}
+
+div#date {
+    margin-top: -7px;
+    float: right;
+}
+
+div#nav ul li div {
+    padding-left: 26%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+

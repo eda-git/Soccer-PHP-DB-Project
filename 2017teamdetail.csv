@@ -1,0 +1,99 @@
+ROUND,YEAR,DATE,VENUE,GAMEID,AWAY,HOME,AWAY_LEAGUE,HOME_LEAGUE,AWAY_SCORE,HOME_SCORE,PK,AWAY_PK,HOME_PK,AET,REFEREE,ATTENDANCE,WEATHER_DESC,TEMP
+1,2017,09-May-2017,Tropical Park,1,South Florida Surf,Red Force FC,PDL,USASA,4,2,FALSE,,,FALSE,Anya Voight,100,Clear,75
+1,2017,09-May-2017,Batteground Stadium,2,Christos FC,Fredricksburg FC,USASA,NPSL,3,0,FALSE,,,FALSE,Jordan Gray,1056,Clear,75
+1,2017,10-May-2017,Atlanta Silverbacks Park,3,SC United Bantams,Atlanta Silverbacks,PDL,NPSL,1,4,FALSE,,,FALSE,David Jaye,100,Clear,81
+1,2017,10-May-2017,Boxer Stadium,4,Burlingame Dragons FC,El Farolito,NPSL,USASA,0,0,TRUE,6,5,TRUE,Elijo Arreguin,200,Clear,61
+1,2017,10-May-2017,Lusitano Stadium,5,Boston City FC,Western Mass Pioneers,NPSL,PDL,2,2,TRUE,5,4,TRUE,Randall Kelley,703,Clear,75
+1,2017,10-May-2017,St. John Vianney High School,6,FC Motown,New Jersey Copa FC,USASA,NPSL,2,1,FALSE,,,TRUE,Luis Arroyo,893,Partly Cloudy,56
+1,2017,10-May-2017,Charlotte Christian School,7,Chattanooga FC,Charlotte Eagles,NPSL,PDL,0,2,FALSE,,,FALSE,Dustin Thorne,253,Clear,87
+1,2017,10-May-2017,Macpherson Stadium,8,Legacy 76,Carolina Dynamo,NPSL,PDL,1,2,FALSE,,,FALSE,Patrick Schmidt,300,Clear,81
+1,2017,10-May-2017,Ted Hendricks Stadium,9,Boca Raton FC,Miami United FC,USASA,NPSL,1,2,FALSE,,,FALSE,Jorge Taborda,150,Partly Cloudy,75
+1,2017,10-May-2017,Patton Park,10,The Villages SC,Jacksonville Armada U23,PDL,NPSL,1,2,FALSE,,,FALSE,Esteban Rosano,300,Clear,85
+1,2017,10-May-2017,Carey Stadium,11,Junior Lone Star FC,Ocean City Noreasters,USASA,PDL,1,3,FALSE,,,FALSE,Tyler Wyrostek,250,Clear,55
+1,2017,10-May-2017,Exeter Township Senior High School,12,Clarkstown SC Eagles,Reading United AC,NPSL,PDL,0,1,FALSE,,,FALSE,Melvin Holmes II,247,Clear,60
+1,2017,10-May-2017,Ultimate Soccer Arenas,13,AFC Ann Arbor,Michigan Bucks,NPSL,PDL,0,1,FALSE,,,FALSE,Donovan Noocha,614,Indoors,
+1,2017,10-May-2017,Woehrle Athletic Complex,14,Tartan Devils Oak Avalon,Derby City Rovers,USASA,PDL,1,1,TRUE,4,3,TRUE,Joshua Kelley,543,Partly Cloudy,76
+1,2017,10-May-2017,Deering High School Memorial Field,15,GPS Omens,GPS Portland Phoenix,USASA,PDL,2,0,FALSE,,,FALSE,Michael Dee,100,Partly Cloudy,45
+1,2017,10-May-2017,Dutch Lions FC Soccer Facility,16,NXT Rayados,Dutch Lions FC,USASA,NPSL,1,3,FALSE,,,FALSE,Christopher Scruggs,225,Clear,73
+1,2017,10-May-2017,Hoyt Athletic Field,17,Azteca FC,FC Wichita,USASA,NPSL,0,1,FALSE,,,TRUE,Ricardo Gutierrez,1000,Rain,66
+1,2017,10-May-2017,Valley Stadium,18,AFC Cleveland,Des Moines Menace,NPSL,PDL,3,1,FALSE,,,FALSE,Robert Sorey,871,Windy,65
+1,2017,10-May-2017,Hurricane Soccer And Track Stadium,19,Oklahoma City Energy U23,Tulsa Athletic,PDL,NPSL,1,1,TRUE,4,2,TRUE,Travis Haight,1229,Overcast,76
+1,2017,10-May-2017,Casa Grande High School,20,Anahuac FC,Sonoma County Sol,USASA,NPSL,1,1,TRUE,5,4,TRUE,Alex Marquand-Willse,500,Clear,55
+1,2017,10-May-2017,Mission Bay High School,21,Chula Vista FC,Albion SC Pros,USASA,NPSL,3,2,FALSE,,,FALSE,Ricardo Fierro,3150,Overcast,64
+1,2017,10-May-2017,Citrus College,22,Outbreak FC,FC Golden State Force,USASA,PDL,0,2,FALSE,,,FALSE,Michael Radchuk,227,Clear,65
+1,2017,10-May-2017,Chukchanski Park,23,La Maquina FC,Fresno Fuego,USASA,PDL,1,4,FALSE,,,FALSE,Vincent Apple-Chiarella,1577,Partly Cloudy,75
+1,2017,10-May-2017,Ventura College Sportsplex,24,Moreno Valley FC,Ventura County Fusion,USASA,PDL,2,1,FALSE,,,FALSE,Osvaldo Delgado-Landeros,475,Partly Cloudy,61
+1,2017,10-May-2017,Kino North Stadium,25,Colorado Rush,FC Tuson,USSSA,PDL,1,3,FALSE,,,FALSE,Anthony Bersano,609,Clear,72
+1,2017,10-May-2017,"Memorial Stadium (Seattle, WA)",26,Seattle Sounders FC U23,OSA FC,PDL,NPSL,0,0,TRUE,3,5,TRUE,Benjamin Oakley,200,Clear,63
+1,2017,10-May-2017,Azusa Pacific University Soccer Field,27,San Diego Zest,Los Angeles Wolves,PDL,USASA,2,4,FALSE,,,FALSE,Reyna Fonseca,427,Partly Cloudy,62
+1,2017,12-May-2017,Joe Bean Stadium ,28,Grand Rapids FC,Chicago FC United,NPSL,PDL,0,1,FALSE,,,FALSE,Greg Dopka,150,Clear,73
+2,2017,16-May-2017,Al Lang Stadium,29,Jacksonville Armada U23,Tampa Bay Rowdies,NPSL,USL,0,3,FALSE,,,FALSE,Christina Unkel,2490,Clear,82
+2,2017,17-May-2017,Atlanta Silverbacks Park,30,Charleston Battery,Atlanta Silverbacks,USL,NPSL,2,1,FALSE,,,FALSE,Aleksandar Zhelyazkov,94,Partly Cloudy,80
+2,2017,17-May-2017,City Stadium,31,Christos FC,Richmond Kickers,USASA,USL,1,0,FALSE,,,FALSE,John Griggs,850,Clear,90
+2,2017,17-May-2017,Capelli Sport Stadium,32,FC Motown,Rochester Rhinos,USASA,USL,0,3,FALSE,,,FALSE,Juan Colazo,350,Clear,82
+2,2017,17-May-2017,Harry Della Russo Stadium,33,GPS Omens,Boston City FC,USASA,NPSL,2,1,FALSE,,,FALSE,Jason Pelletier,316,Clear,85
+2,2017,17-May-2017,Ted Hendricks Stadium,34,Jacksonville Armada,Miami United FC,NASL,NPSL,2,1,FALSE,,,FALSE,Jonathan Quinter,175,Partly Cloudy,80
+2,2017,17-May-2017,Macpherson Stadium,35,North Carolina FC,Carolina Dynamo,NASL,PDL,6,1,FALSE,,,FALSE,Dustin Thorne,300,Clear,88
+2,2017,17-May-2017,Charlotte Christian School,36,Charlotte Independence,Charlotte Eagles,USL,PDL,3,2,FALSE,,,FALSE,Patrick Schmidt,602,Clear,77
+2,2017,17-May-2017,Highmark Stadium,37,Louisville City FC,Tartan Devils Oak Avalon,USL,USASA,9,0,FALSE,,,FALSE,Jaroslaw Werel,538,Clear,84
+2,2017,17-May-2017,Nippert Stadium,38,AFC Cleveland,FC Cincinnati,NPSL,USL,0,1,FALSE,,,TRUE,Tori Penso,12790,Clear,84
+2,2017,17-May-2017,Cobb Stadium,39,South Florida Surf,Miami FC,PDL,NASL,2,3,FALSE,,,FALSE,Esteban Rosano,897,Clear,86
+2,2017,17-May-2017,Ultimate Soccer Arenas,40,Indy Eleven,Michigan Bucks,NASL,PDL,0,1,FALSE,,,FALSE,Nick Balcer,648,Indoors,
+2,2017,17-May-2017,Gene Shirk Stadium,41,New York Cosmos,Reading United AC,NASL,PDL,2,3,FALSE,,,FALSE,Amber O'Connor,347,Clear,90
+2,2017,17-May-2017,Carey Stadium,42,Harrisburg City Islanders,Ocean City Noreasters,USL,PDL,0,0,TRUE,6,5,TRUE,Luis Arroyo,250,Clear,68
+2,2017,17-May-2017,Hoyne Field,43,Pittsburgh Riverhounds,Chicago FC United,USL,PDL,1,3,FALSE,,,FALSE,Alex Beehler,897,Windy,83
+2,2017,17-May-2017,Stryker Soccer Complex,44,Saint Louis FC,FC Wichita,USL,NPSL,4,3,FALSE,,,TRUE,Elvis Mahmutovic,1432,Clear,79
+2,2017,17-May-2017,Dutch Lions FC Soccer Facility,45,San Antonio FC,Dutch Lions FC,USL,NPSL,2,1,FALSE,,,FALSE,Patrick Muana,252,Partly Cloudy,85
+2,2017,17-May-2017,Hurricane Soccer And Track Stadium,46,Oklahoma City Energy U23,Tulsa Roughnecks FC,PDL,USL,3,5,FALSE,,,FALSE,Travis Haight,885,Clear,83
+2,2017,17-May-2017,John Craig Field,47,Moreno Valley FC,Oklahoma City Energy FC,USASA,USL,1,5,FALSE,,,FALSE,Jose Lara,644,Clear,80
+2,2017,17-May-2017,Weidner Field,48,FC Tuscon,Colorado Springs Switchbacks FC,PDL,USL,0,2,FALSE,,,FALSE,Chris Greer,1484,Partly Cloudy,63
+2,2017,17-May-2017,Fresno State Soccer and Lacrosse Stadium,49,Phoenix Rising FC,Fresno Fuego,USL,PDL,3,1,FALSE,,,FALSE,Matthew Buckman,2000,Clear,73
+2,2017,17-May-2017,Citrus College,50,Orange County SC,FC Golden State Force,USL,PDL,5,2,FALSE,,,FALSE,Ceciah Valero,500,Clear,65
+2,2017,17-May-2017,Azusa Pacific University Soccer Field,51,Chula Vista FC,Los Angeles Wolves,USASA,USASA,0,1,FALSE,,,TRUE,Martin Anthony Almeida,279,Clear,64
+2,2017,17-May-2017,Papa Murphys Park,52,Anahuac FC,Sacramento Republic FC,USASA,USL,0,4,FALSE,,,FALSE,Turan Ozdemir,5308,Clear,74
+2,2017,17-May-2017,Laird Q. Cagan Stadium,53,Burlingame Dragons FC,San Francisco Deltas,PDL,NASL,1,2,FALSE,,,FALSE,Vincent Apple-Chiarella,253,Clear,63
+2,2017,17-May-2017,Starfire Sports Complex,54,Reno 1868 FC,OSA FC,USL,NPSL,1,1,TRUE,4,3,TRUE,Jeff Arthurholtz,150,Clear,60
+3,2017,30-May-2017,Ultimate Soccer Arenas,55,Saint Louis FC,Michigan Bucks,USL,PDL,2,1,FALSE,,,FALSE,Benjamin Hall-Volpenhein,831,Indoors,
+3,2017,31-May-2017,Capelli Sport Stadium,56,GPS Omens,Rochester Rhinos,USASA,USL,1,2,FALSE,,,TRUE,Stephen Montanino,436,Partly Cloudy,71
+3,2017,31-May-2017,Southern Oak Stadium,57,Charleston Battery,Jacksonville Armada FC,USL,NASL,1,0,FALSE,,,FALSE,Esteban Rosano,831,Partly Cloudy,71
+3,2017,31-May-2017,Nippert Stadium,58,Louisville City FC,FC Cincinnati,USL,USL,0,1,FALSE,,,FALSE,Brandon Artis,6519,Partly Cloudy,74
+3,2017,31-May-2017,WakeMed Soccer Park,59,Charlotte Independence,North Carolina FC,USL,NASL,1,4,FALSE,,,FALSE,Kevin Broadley,2052,Clear,78
+3,2017,31-May-2017,Riccardo Silva Stadium,60,Tampa Bay Rowdies,Miami FC,USL,NASL,0,2,FALSE,,,FALSE,Andres Pfefferkorn,1403,Partly Cloudy,85
+3,2017,31-May-2017,Don Thomas Stadium,61,Harrisburg City Islanders,Reading United AC,USL,PDL,3,0,FALSE,,,FALSE,Brandon Smith,505,Clear,75
+3,2017,31-May-2017,Hoyne Field,62,Christos FC,Chicago FC United,USASA,PDL,1,0,FALSE,,,FALSE,Becky Pagan,515,Clear,69
+3,2017,31-May-2017,Hurricane Soccer And Track Stadium,63,San Antonio FC,Tulsa Roughnecks FC,USL,USL,0,0,TRUE,6,7,TRUE,Elvis Mahmutovic,5532,Partly Cloudy,85
+3,2017,31-May-2017,Weidner Field,64,Oklahoma City Energy FC,Colorado Springs Switchbacks FC,USL,USL,2,1,FALSE,,,FALSE,Karen Abt,1222,Partly Cloudy,71
+3,2017,31-May-2017,Phoenix Rising Soccer Complex,65,San Francisco Deltas,Phoenix Rising FC,NASL,USL,2,1,FALSE,,,FALSE,Robi Hullner,5532,Clear,92
+3,2017,31-May-2017,Azusa Pacific University Soccer Field,66,Orange County SC,Los Angeles Wolves,USL,USASA,1,0,FALSE,,,FALSE,Vincent Apple-Chiarella,589,Partly Cloudy,64
+3,2017,31-May-2017,Papa Murphys Park,67,Reno 1868 FC,Sacramento Republic FC,USL,USL,0,2,FALSE,,,FALSE,Matthew Buckman,2307,Clear,72
+4,2017,13-June-2017,Maryland SoccerPlex,68,Christos FC,DC United,USASA,MLS,1,4,FALSE,,,FALSE,Marcos de Oliveira,5286,Clear,85
+4,2017,13-June-2017,Dick's Sporting Goods Park,69,Oklahoma City Energy FC,Colorado Rapids,USL,MLS,2,3,FALSE,,,FALSE,Karen Abt,1790,Clear,75
+4,2017,13-June-2017,Starfire Sports Complex,70,Portland Timbers FC,Seattle Sounders FC,MLS,MLS,1,2,FALSE,,,FALSE,Allen Chapman,3937,Cloudy,61
+4,2017,14-June-2017,Nippert Stadium,71,Columbus Crew SC,FC Cincinnati,MLS,USL,0,1,FALSE,,,FALSE,Younes Marrakchi,30160,Cloudy,73
+4,2017,14-June-2017,WakeMed Soccer Park,72,Houston Dynamo,North Carolina FC,MLS,NASL,3,2,FALSE,,,TRUE,Mark Kadlecik,4325,Clear,90
+4,2017,14-June-2017,Anderson Stadium,73,Rochester Rhinos,New England Revolution,USL,MLS,0,3,FALSE,,,FALSE,Henrik Karlsson,1663,Clear,65
+4,2017,14-June-2017,Talen Energy Stadium,74,Harrisburg City Islanders,Philadelphia Union,USL,MLS,1,3,FALSE,,,FALSE,Nima Saghafi,10761,Clear,75
+4,2017,14-June-2017,Fifth Third Bank Stadium,75,Charleston Battery,Atlanta United,USL,MLS,2,3,FALSE,,,FALSE,Guido Gonzales Jr,9458,Rain,85
+4,2017,14-June-2017,Orlando City Stadium,76,Miami FC,Orlando City SC,NASL,MLS,3,1,FALSE,,,FALSE,Rubiel Vazquez,5838,Clear,72
+4,2017,14-June-2017,Red Bull Arena,77,New York City FC,New York Red Bulls,MLS,MLS,0,1,FALSE,,,FALSE,Jose Carlos Rivero,11311,Clear,81
+4,2017,14-June-2017,"Toyota Stadium (Fenton, MO)",78,Chicago Fire,Saint Louis FC,MLS,USL,1,0,FALSE,,,FALSE,Jon Freemon,5786,Rain,83
+4,2017,14-June-2017,Westcott Field,79,Tulsa Roughnecks FC,FC Dallas,USL,MLS,1,2,FALSE,,,FALSE,Fotis Bazakos,2214,Clear,84
+4,2017,14-June-2017,Children's Mercy Park,80,Minnesota United FC,Sporting Kansas City,MLS,MLS,0,4,FALSE,,,FALSE,Juan Guzman Jr,15260,Clear,83
+4,2017,14-June-2017,Papa Murphys Park,81,Real Salt Lake,Sacramento Republic FC,MLS,USL,1,3,FALSE,,,FALSE,Alex Chilowicz,11569,Clear,83
+4,2017,14-June-2017,Stubhub Center Track Stadium,82,Orange County SC,Los Angeles Galaxy,USL,MLS,1,3,FALSE,,,FALSE,Ramy Touchan,2408,Clear,74
+4,2017,14-June-2017,Avaya Stadium,83,San Francisco Deltas,San Jose Earthquakes,NASL,MLS,0,2,FALSE,,,FALSE,Victor Rivas,12524,Clear,81
+5,2017,27-June-2017,Toyota Stadium,84,Colorado Rapids,FC Dallas,MLS,MLS,1,3,FALSE,,,FALSE,Roberto Sobiga,4131,Clear,84
+5,2017,28-June-2017,BBVA Compas Stadium,85,Sporting Kansas City,Houston Dynamo,MLS,MLS,2,0,FALSE,,,FALSE,Fotis Bazakos,6095,Clear,78
+5,2017,28-June-2017,Jordan Field,86,DC United,New England Revolution,MLS,MLS,1,2,FALSE,,,FALSE,Mark Kadlecik,2572,Partly Cloudy,72
+5,2017,28-June-2017,Riccardo Silva Stadium,87,Atlanta United,Miami FC,MLS,NASL,2,3,FALSE,,,FALSE,Jose Carlos Rivero,9004,Partly Cloudy,84
+5,2017,28-June-2017,Nippert Stadium,88,Chicago Fire,FC Cincinnati,MLS,USL,0,0,TRUE,1,3,TRUE,Hilario Grajeda,32287,Clear,73
+5,2017,28-June-2017,Red Bull Arena,89,Philadelphia Union,New York Red Bulls,MLS,MLS,1,1,TRUE,3,5,TRUE,Alex Chilowicz,9136,Clear,74
+5,2017,28-June-2017,Avaya Stadium,90,Seattle Sounders FC,San Jose Earthquakes,MLS,MLS,1,2,FALSE,,,FALSE,Nima Saghafi,13442,Clear,69
+5,2017,28-June-2017,Stubhub Center Track Stadium,91,Sacramento Republic FC,Los Angeles Galaxy,USL,MLS,0,2,FALSE,,,FALSE,Alejandro Mariscal,2195,Clear,68
+6,2017,10-July-2017,Avaya Stadium,92,Los Angeles Galaxy,San Jose Earthquakes,MLS,MLS,2,3,FALSE,,,FALSE,Allen Chapman,14056,Clear,70
+6,2017,11-July-2017,Children's Mercy Park,93,FC Dallas,Sporting Kansas City,MLS,MLS,0,3,FALSE,,,TRUE,Younes Marrakchi,15016,Clear,90
+6,2017,13-July-2017,Jordan Field,94,New York Red Bulls,New England Revolution,MLS,MLS,1,0,FALSE,,,FALSE,Jorge Gonzalez,2331,Clear,77
+6,2017,2-August-2017,Riccardo Silva Stadium,95,FC Cincinnati,Miami FC,USL,NASL,1,0,FALSE,,,FALSE,Mark Kadlecik,10415,Cloudy,84
+7,2017,9-August-2017,Children's Mercy Park,96,San Jose Earthquakes,Sporting Kansas City,MLS,MLS,1,1,TRUE,4,5,TRUE,Nima Saghafi,16193,Clear,77
+7,2017,15-August-2017,Nippert Stadium,97,New York Red Bulls,FC Cincinnati,MLS,USL,3,2,FALSE,,,TRUE,Sorin Stoica,33250,Clear,78
+8,2017,20-September-2017,Children's Mercy Park,98,New York Red Bulls,Sporting Kansas City,MLS,MLS,1,2,FALSE,,,FALSE,Hilario Grajeda,21823,Cloudy,83

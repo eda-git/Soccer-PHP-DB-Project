@@ -1,0 +1,1 @@
+document.write('<li class="mdl-menu__item">About</li> <li class="mdl-menu__item">Contact</li> <li class="mdl-menu__item">Legal information</li>');

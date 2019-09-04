@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function moveNumbers(number){
+            document.getElementById("result").value=number;
+        }
+    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="./css/default.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <form>
+        Select numbers:<br>
+        <input type="button" value="yes 1" name="no" onclick="moveNumbers(this.value)"> 
+        <input type="button" value="2" name="no" onclick="moveNumbers(this.value)"> 
+        <input type="button" value="3" name="no" onclick="moveNumbers(this.value)"> 
+
+        <input type="text" id="result" size="20">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+div#lastgame {
+    width: 25%;
+    height: 211px;
+    position: absolute;
+    top: 143px;
+    /* display: flex; */
+    right: 21px;
+}
+
+div#lastgame div#team {}
+
+div#lastgameteam {
+    width: 50%;
+    height: 41%;
+    display: table;
+    background: #FFF;
+}
+
+div#score {
+    width: 100%;
+    text-align: center;
+    /* bottom: -187px; */
+    /* margin-left: 0px; */
+    /* display: flex; */
+    position: relative;
+    /* display: table-row; */
+    font-size: 22px;
+    vertical-align: bottom;
+    background: linear-gradient(#bbb 80%, #505050  )  bottom;
+    color: #FFF;
+    font-family: 'Oswald', sans-serf;
+    text-shadow: 1px 1px #000;
+}
+div#content {
+    width: 100%;
+    display: inline-flex;
+    float: left;
+}
+
+div#teams {
+    width: 100%;
+    display: inline-flex;
+    float: right;
+}
+div#header {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    width: 323px;
+    margin-left: 20;
+    background: #eee;
+    font-style: oblique;
+    color: #b52322;
+    margin-top: 20;
+}
+div#lastgamefinal {
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid hsla(0, 0%, 0%, 1); */
+    background: linear-gradient(to bottom, #9ea18c 33%, #6a6d5a);
+    color: #FFF;
+    font-size: 16px;
+    text-shadow: 1px 1px #000;
+    position: absolute;
+    text-align: center;
+    top: 118px;
+    left: 0;
+    right: 0;
+    font-family: 'Oswald', sans-serif;
+}
+div#lastgameheader {
+    top: -18px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to bottom, #565656 33%, #292929);
+    color: gold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}

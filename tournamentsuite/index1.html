@@ -1,0 +1,181 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.getmdl.io/1.2.0/material.min.js"> </script> 
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+<link href="http://absoluterad.com/sports/shslogos.css" rel="stylesheet">
+ <script type="text/javascript" src="/sports/nfl/nflfix.js"></script> 
+ <script type="text/javascript" src="/sports/nhl/nhlfix.js"></script> 
+ <script type="text/javascript" src="/sports/nba/nbafix.js"></script> 
+
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"> 
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+ <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.deep_purple-pink.min.css">
+<style>
+div#teamlogo {
+    display: inline-block;
+    background: url(http://absoluterad.com/sports/nfl/Titans.png) no-repeat left center;
+	padding-left: 25px;
+	height: 40px;
+	background-size:40px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+</style>
+<link rel="stylesheet" href="tabs.css">
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+  
+  <script type="text/javascript" src="http://www.google.com/jsapi"> 
+<script async="" src="//www.google-analytics.com/analytics.js">
+</script>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+<link rel="stylesheet" type="text/css" href="zoomfixes.css">
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.js">
+</script> 
+<script type="text/javascript" src="http://fiddle.jshell.net/js/lib/yui-min-3.3.0.js">
+</script> 
+
+<script src="//code.jquery.com/jquery-1.10.2.js">
+</script> 
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js">
+</script> 
+
+<script type="text/javascript" src="http://absoluterad.com/sports/rssdisplayer.js">
+</script> 
+<script type="text/javascript">$(document).ready(function(){$("#loading_wrap").remove()});
+</script>
+
+</head>
+<body>
+<div id="top">
+<div id="leftid">
+<div id ="teammode"> Team Mode </div> 
+<div id="season">Season 2017-18</div>
+</div> 
+
+<div id="rightid">
+<div id="teamlogo"></div> 
+<div id="teamrightid">
+<div id="teamname">Tennessee Titans</div>
+<hr id="rightidline"> </hr>
+<div id="date">8/16/2017</div>
+</div>
+</div>
+</div>
+
+<div id="nav">
+<ul>
+<li><div>League</div></li>
+<li><div>Scores</div></li>
+<li><div>Standings</div></li>
+<li>
+<div style="
+    padding-left: 15%;
+	display:inline;
+"><a href="http://absoluterad.com/sports/" style="text-align: center;text-decoration: none;padding-left: -21px;"> <img src="http://absoluterad.com/logo.png" style="height: 13px;margin-top: -3px;display: inline-flex;"> <div style="padding-left: 0;display: inline-flex;" id="sports">Sports</div> </a>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="middle">
+<div id="topcard">
+<div id="leftcard">
+<div id ="nextgame">
+<script language="javascript" src="http://nbcsports.stats.com/multisport/today-byteam.js.asp?sport=fb&amp;type=mini&amp;team=10&amp;lang=en&amp;random=NaN"> </script>
+
+<script language="javascript" src="http://cmpc.absoluterad.com/hyperlink.js"> </script>
+
+
+</div>
+
+
+</div>
+
+<div id="rightcard" style="display: none">
+Lel
+</div>
+</div>
+
+</div>
+
+<div id="middle">
+<div id="topcard">
+<div id="leftcard">
+<div id ="topheadline">
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <div class="mdl-tabs__tab-bar">
+      <a href="#topstories-panel" class="mdl-tabs__tab is-active">Top Stories</a>
+      <a href="#morestories-panel" class="mdl-tabs__tab">More Stories</a>
+      <a href="#google-panel" class="mdl-tabs__tab">Google Headlines</a>
+	  <a href="#roster-panel" class="mdl-tabs__tab">Roster</a>
+      <a href="#schedule-panel" class="mdl-tabs__tab">Schedule</a>
+  </div>
+
+  <div class="mdl-tabs__panel is-active" id="topstories-panel">
+   <script language="javascript" src="http://nbcsports.stats.com/multisport/article.js.asp?sport=fb&amp;team=10&amp;lang=en"></script>
+  </div>
+  <div class="mdl-tabs__panel" id="morestories-panel">
+    <script language="javascript" src="http://nbcsports.stats.com/multisport/headlines.js.asp?sport=fb&amp;team=10&amp;lang=en"></script>
+  </div>
+  <div class="mdl-tabs__panel" id="google-panel">
+
+<script>
+YUI().use('yql', function(Y){
+    var query = 'select * from rss(0,5) where url = "https://news.google.com/news/section?pz=1&q=Tennessee%20Titans&src=sports-team&siidp=5141412421&output=rss"'
+    var q = Y.YQL(query, function(r){
+        //r now contains the result of the YQL Query as a JSON
+        var feedmarkup = '<p>'
+        var feed = r.query.results.item // get feed as array of entries
+        for (var i=0; i<feed.length; i++){
+            feedmarkup += '<a href="' + feed[i].link + '">'
+            feedmarkup += feed[i].title + '</a><br />'
+            feedmarkup += feed[i].description + '</p>'
+        }
+        document.getElementById('tabs-1').innerHTML = feedmarkup
+    })
+})
+</script>
+<div id="tabs-1"></div>
+
+  </div>
+  
+   <div class="mdl-tabs__panel" id="roster-panel">
+<div id="statsrosters" style="position: center; left: 30px; top: 210px;"> 
+<div id="scoreContainer" style="overflow:hidden;"> <iframe src="http://hosted.stats.com/fb/teamstats.asp?teamno=10&type=roster" id="scores" style="width: 100%;height: 2098px;"> 
+</iframe> 
+</div> 
+</div>
+  </div>
+     <div class="mdl-tabs__panel" id="schedule-panel">
+<div id="sched">
+<script language="javascript" src="http://hosted.stats.com/multisport/stats.js.asp?sport=fb&amp;type=schedrslt&amp;team=22&amp;lang=en"> </script>
+</div>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+</head>
+</html>

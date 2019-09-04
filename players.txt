@@ -1,0 +1,12 @@
+  
+   <br>
+   Players:
+   <div id="playerlist"> 
+   
+   <div id="away">
+<div class='awayteam'>Away Team</div>   </div>
+
+   <div id="home">
+   <div class='hometeam'>Home Team</div> 
+   </div>
+</div>

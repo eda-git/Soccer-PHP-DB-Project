@@ -1,0 +1,18 @@
+ <script>
+  /* PLAYER, DATE, GAMEID, HOME, TEAM, GK, STARTED, MINUTE SUBBED, SUBBED, 
+  SUBBED IN ADDED TIME, PENALTY KICK GOALS, PENALTY KICK ATTEMPTS, SAVES, RED CARDS, 
+  SECOND YELLOW CARD, GOALS, ASSISTS, OWN GOALS, MINUTES PLAYED, MANAGER, PLAYER
+  */
+
+  
+  jQuery(function($) {
+  
+  
+  $('#addplayer').click(addAnotherTextBox);
+  
+  function addAnotherTextBox() {
+    $("#matchform").append('' );
+  }
+  
+});
+</script>

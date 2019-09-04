@@ -1,0 +1,288 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.getmdl.io/1.2.0/material.min.js"> </script> 
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+<link href="http://absoluterad.com/sports/shslogos.css" rel="stylesheet">
+ <script type="text/javascript" src="/sports/nfl/nflfix.js"></script> 
+ <script type="text/javascript" src="/sports/nhl/nhlfix.js"></script> 
+  <script type="text/javascript" src="/sports/mlb/mlbfix.js"></script> 
+
+ <script type="text/javascript" src="/sports/nba/nbafix.js"></script> 
+
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"> 
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+ <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.deep_purple-pink.min.css">
+<style>
+div#teamlogo {
+    display: inline-block;
+    background: url(https://upload.wikimedia.org/wikipedia/en/a/a6/Major_League_Baseball_logo.svg) no-repeat left center;
+	padding-left: 25px;
+	height: 40px;
+	background-size:40px;
+	width: 30px;
+	vertical-align: middle;
+}
+#shsMastheadLinescore span.shsLogo {
+    display: none;
+}
+div#team5050 {display:flex}
+#sched span.shsTimezone.shsETZone {
+    display: inline;
+    margin-top: 0;
+    margin-left: 0;
+    position: inherit;
+}
+</style>
+<link rel="stylesheet" href="tabs.css">
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+  
+  <script type="text/javascript" src="http://www.google.com/jsapi"> 
+<script async="" src="//www.google-analytics.com/analytics.js">
+</script>
+<link rel="stylesheet" type="text/css" href="http://cmpc.absoluterad.com/style.css"> 
+<link rel="stylesheet" type="text/css" href="http://cmpc.absoluterad.com/zoomfixes.css">
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.js">
+</script> 
+<script type="text/javascript" src="http://fiddle.jshell.net/js/lib/yui-min-3.3.0.js">
+</script> 
+
+<script src="//code.jquery.com/jquery-1.10.2.js">
+</script> 
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js">
+</script> 
+
+<script type="text/javascript" src="http://absoluterad.com/sports/rssdisplayer.js">
+</script> 
+<script type="text/javascript">$(document).ready(function(){$("#loading_wrap").remove()});
+</script>
+
+</head>
+<body>
+<div id="top">
+<div id="leftid">
+<div id ="teammode">MLB Playoffs </div> 
+<div id="season">2017 Postseason: ALCS: Yankees vs. Astros</div>
+</div> 
+
+<div id="rightid">
+<div id="teamlogo"></div> 
+<div id="teamrightid">
+<div id="teamname">ALCS</div>
+<hr id="rightidline"> </hr>
+<div id="date"><script language="javascript" src="http://absoluterad.com/sports/mlb/playoffs/championshipseries/alcs/alcs.js"></script></div>
+</div>
+</div>
+</div>
+
+<div id="nav">
+<ul>
+<li><div>League</div></li>
+<li><div>Scores</div></li>
+<li><div>Standings</div></li>
+<li>
+<div style="
+    padding-left: 15%;
+	display:inline;
+"><a href="http://absoluterad.com/sports/" style="text-align: center;text-decoration: none;padding-left: -21px;"> <img src="http://absoluterad.com/logo.png" style="height: 13px;margin-top: -3px;display: inline-flex;"> <div style="padding-left: 0;display: inline-flex;" id="sports">Sports</div> </a>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="middle">
+<div id="topcard">
+<div id="leftcard">
+<div id ="nextgame">
+<script language="javascript" src="http://hosted.stats.com/multisport/today-byteam.js.asp?sport=mlb&amp;type=mast&amp;team=10&amp;lang=en"> </script>
+<script language="javascript" src="http://cmpc.absoluterad.com/hyperlink.js"> </script>
+
+
+</div>
+
+
+</div>
+
+<div id="rightcard" style="display: none">
+
+</div>
+</div>
+
+</div>
+
+<div id="middle">
+<div id="topcard">
+<div id="leftcard">
+<div id ="topheadline">
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <div class="mdl-tabs__tab-bar">
+      <a href="#topstories-panel" class="mdl-tabs__tab is-active">Top Stories</a>
+      <a href="#morestories-panel" class="mdl-tabs__tab">More Stories</a>
+      <a href="#google-panel" class="mdl-tabs__tab">Google Headlines</a>
+      <a href="#schedule-panel" class="mdl-tabs__tab">Schedule</a>
+  </div>
+
+  <div class="mdl-tabs__panel is-active" id="topstories-panel">
+  <div id="team5050">
+  <div id="team1">
+   <script language="javascript" src="http://nbcsports.stats.com/multisport/article.js.asp?sport=mlb&amp;team=10&amp;lang=en"></script>
+   </div>
+   <div id="team2"><script language="javascript" src="http://nbcsports.stats.com/multisport/article.js.asp?sport=mlb&amp;team=18&amp;lang=en"></script>
+   </div>
+</div>
+   </div>
+  <div class="mdl-tabs__panel" id="morestories-panel">
+    <div id="team5050"><div id="team1"><script language="javascript" src="http://nbcsports.stats.com/multisport/headlines.js.asp?sport=mlb&amp;team=10&amp;lang=en"></script></div>
+
+	   <div id="team2"> <script language="javascript" src="http://nbcsports.stats.com/multisport/headlines.js.asp?sport=mlb&amp;team=18&amp;lang=en"></script></div>
+
+</div>
+  </div>
+  <div class="mdl-tabs__panel" id="google-panel">
+
+<div id="team5050">
+<div id="team1">
+
+<script>
+YUI().use('yql', function(Y){
+    var query = 'select * from rss(0,5) where url = "https://news.google.com/news/section?pz=1&q=New%20York%20Yankees&src=sports-team&siidp=5141412421&output=rss"'
+    var q = Y.YQL(query, function(r){
+        //r now contains the result of the YQL Query as a JSON
+        var feedmarkup = '<p>'
+        var feed = r.query.results.item // get feed as array of entries
+        for (var i=0; i<feed.length; i++){
+            feedmarkup += '<a href="' + feed[i].link + '">'
+            feedmarkup += feed[i].title + '</a><br />'
+            feedmarkup += feed[i].description + '</p>'
+        }
+        document.getElementById('playofftabs-1').innerHTML = feedmarkup
+    })
+})
+</script>
+<div id="playofftabs-1"></div>
+</div>
+
+<div id="team2">
+
+<script>
+YUI().use('yql', function(Y){
+    var query = 'select * from rss(0,5) where url = "https://news.google.com/news/section?pz=1&q=Houston%20Astros&src=sports-team&siidp=5141412421&output=rss"'
+    var q = Y.YQL(query, function(r){
+        //r now contains the result of the YQL Query as a JSON
+        var feedmarkup = '<p>'
+        var feed = r.query.results.item // get feed as array of entries
+        for (var i=0; i<feed.length; i++){
+            feedmarkup += '<a href="' + feed[i].link + '">'
+            feedmarkup += feed[i].title + '</a><br />'
+            feedmarkup += feed[i].description + '</p>'
+        }
+        document.getElementById('playofftabs-2').innerHTML = feedmarkup
+    })
+})
+</script>
+<div id="playofftabs-2"></div>
+</div>
+
+
+</div>
+
+  </div>
+  
+ 
+     <div class="mdl-tabs__panel" id="schedule-panel">
+<div id="sched">
+<table class="shsTable shsPlayoffsTable">
+	<tbody><tr>
+	
+	<td class="shsPlayoffsTD" style="vertical-align: top;/* width: 50% */">
+	<table cellspacing="0" class="shsTable shsBorderTable">
+<tbody><tr class="shsTableTtlRow">
+<td colspan="3" class="shsTotD">Astros vs. Yankees</td>
+</tr>
+<tr class="shsTableSubttlRow">
+<td class="shsTotD" style="width: 7%;text-align: left;">Gm</td>
+<td class="shsTotD" style="width: 55%;text-align: left;">Result / Schedule</td>
+<td class="shsTotD" style="width: 38%;text-align: left;">Network</td>
+</tr>
+<tr class="shsRow0Row">
+<td class="shsNumD"><b>1: </b></td>
+<td class="shsNamD">
+Oct. 13 @HOU, 8:08 PM ET
+&nbsp;&nbsp;</td>
+<td class="shsNamD">
+FS1
+</td></tr>
+<tr class="shsRow1Row">
+<td class="shsNumD"><b>2: </b></td>
+<td class="shsNamD">
+Oct. 14 @HOU, <span class="shsTimezone shsPTZone">1:08 PM PT</span><span class="shsTimezone shsMTZone">2:08 PM MT</span><span class="shsTimezone shsCTZone">3:08 PM CT</span><span class="shsTimezone shsETZone">4:08 PM ET</span><span class="shsTimezone shsET24Zone">16:08 ET</span><span class="shsTimezone shsGMTZone">20:08 GMT</span><span class="shsTimezone shsCSTZone">4:08 </span><span class="shsTimezone shsMSTZone">1:08 PM MST</span><span class="shsTimezone shsESTZone">3:08 PM EST</span><span class="shsTimezone shsVENZone">3:38 PM VEN</span><span class="shsTimezone shsUAEZone">0:08 UAE (+1)</span><span class="shsTimezone shsIntlCTZone">3:08 PM CT</span>&nbsp;&nbsp;</td>
+<td class="shsNamD">
+    Fox
+    
+</td></tr>
+<tr class="shsRow0Row">
+<td class="shsNumD"><b>3: </b></td>
+<td class="shsNamD">
+Oct. 16 @NYY, <span class="shsTimezone shsPTZone">5:08 PM PT</span><span class="shsTimezone shsMTZone">6:08 PM MT</span><span class="shsTimezone shsCTZone">7:08 PM CT</span><span class="shsTimezone shsETZone">8:08 PM ET</span><span class="shsTimezone shsET24Zone">20:08 ET</span><span class="shsTimezone shsGMTZone">0:08 GMT</span><span class="shsTimezone shsCSTZone">8:08 </span><span class="shsTimezone shsMSTZone">5:08 PM MST</span><span class="shsTimezone shsESTZone">7:08 PM EST</span><span class="shsTimezone shsVENZone">7:38 PM VEN</span><span class="shsTimezone shsUAEZone">4:08 UAE (+1)</span><span class="shsTimezone shsIntlCTZone">7:08 PM CT</span>&nbsp;&nbsp;</td>
+<td class="shsNamD">
+    FS1
+</td></tr>
+<tr class="shsRow1Row">
+<td class="shsNumD"><b>4: </b></td>
+<td class="shsNamD">
+Oct. 17 @NYY, TBA&nbsp;&nbsp;</td>
+<td class="shsNamD">
+    FS1
+</td></tr>
+<tr class="shsRow0Row">
+<td class="shsNumD"><b>5: </b></td>
+<td class="shsNamD">
+Oct. 18 @NYY, TBA&nbsp;&nbsp;</td>
+<td class="shsNamD">
+FS1
+</td></tr>
+<tr class="shsRow1Row">
+<td class="shsNumD"><b>6: </b></td>
+<td class="shsNamD">
+Oct. 20 @HOU, TBA&nbsp;&nbsp;</td>
+<td class="shsNamD">FS1
+</td></tr>
+<tr class="shsRow0Row">
+<td class="shsNumD"><b>7: </b></td>
+<td class="shsNamD">
+Oct. 21 @HOU, TBA&nbsp;&nbsp;</td>
+<td class="shsNamD">FS1
+</td></tr>
+<tr class="shsTableSubttlRow"><td colspan="3" class="shsTotD"></td></tr></tbody></table>
+
+	</td>
+	</tr>
+	</tbody></table>
+	</div>
+  </div>
+  
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+</head>
+</html>

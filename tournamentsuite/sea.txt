@@ -1,0 +1,82 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
+<link href="http://absoluterad.com/sports/shslogos.css" rel="stylesheet">
+
+<style>
+div#teamlogo {
+    background: url(http://absoluterad.com/sports/nfl/Titans.png) no-repeat left center;
+   
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+<body>
+<div id="top">
+<div id="leftid">
+<div id ="teammode"> Team Mode </div> 
+<div id="season">Season 2017-18</div>
+</div> 
+<div id="rightid">
+<div id="teamlogo"></div> 
+<div id="teamrightid">
+<div id="teamname">Tennessee Titans</div>
+<hr id="rightidline"> </hr>
+<div id="date">8/16/2017</div>
+</div>
+</div>
+</div>
+
+<div id="nav">
+<ul>
+<li><div>League</div></li>
+<li><div>Scores</div></li>
+<li><div>Standings</div></li>
+<li>
+<div style="
+    padding-left: 15%;
+	display:inline;
+"><a href="http://absoluterad.com/sports/" style="text-align: center;text-decoration: none;padding-left: -21px;"> <img src="http://absoluterad.com/logo.png" style="height: 13px;margin-top: -3px;display: inline-flex;"> <div style="padding-left: 0;display: inline-flex;" id="sports">Sports</div> </a>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="middle">
+<div id="topcard">
+<div id="leftcard">
+<div id ="nextgame">
+<script language="javascript" src="http://nbcsports.stats.com/multisport/today-byteam.js.asp?sport=fb&amp;type=mini&amp;team=10&amp;lang=en&amp;random=NaN"> </script>
+
+<script>
+$( "td.shsNamD.shsMiniTeamName a" ).replaceWith( "&nbsp;" );
+$( ".team29sm_trans, .shsNFLteam29sm_trans" ).replaceWith('<a href="http://absoluterad.com/sports/nfl/car"><span class="shsNFLteam29sm_trans"></span></a>' );
+$( ".team10sm_trans, .shsNFLteam10sm_trans" ).replaceWith('<a href="http://absoluterad.com/sports/nfl/ten"><span class="shsNFLteam10sm_trans"></span></a>' );
+
+
+
+</script>
+
+
+</div>
+<div id="calendar">
+<div id="innercal">
+Calendar
+</div>
+</div>
+
+
+</div>
+
+<div id="rightcard" style="display: none">
+Lel
+</div>
+</div>
+
+</div>
+
+</body>
+</head>
+</html>

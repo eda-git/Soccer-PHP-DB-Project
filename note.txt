@@ -1,0 +1,28 @@
+DATE_MIN=2017
+DATE_MAX=2017
+round_min=
+round_max=8
+playervalue=outfield
+team=
+location=
+opponent=
+result=
+c1stat=
+c1comp=greaterthan
+c1val=
+orderby=goals
+
+select 
+Year,
+2017teamdetail.Round as 'Round',
+Name,  
+2017playerdetail.TEAM, 
+2017teamdetail.Date, 
+2017teamdetail.Home, 
+2017teamdetail.Away, 
+Goals, 
+Assists, 
+`Minutes Played`
+from 2017playerdetail
+INNER JOIN 2017teamdetail ON 2017teamdetail.GAMEID = 2017playerdetail.GAMEID
+where (2017playerdetail.HOME = False or True) and Player = 'True' and Round >= 1 and goals >= 0;
