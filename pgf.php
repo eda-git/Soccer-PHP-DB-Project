@@ -306,7 +306,7 @@ $finalclval = 0;
 }
 
 if(empty($c1stat)){
-	$finalc1stat = "Goals"; 
+	$finalc1stat = ucfirst($order);
 } else {
 	$finalc1stat = $c1stat; 
 }
